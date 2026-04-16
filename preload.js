@@ -1,0 +1,156 @@
+(function(_0x55f072, _0xda620d) {
+    var _0x4b43cc = a1_0x56c2,
+        _0x557bb1 = _0x55f072();
+    while (!![]) {
+        try {
+            var _0x552784 = parseInt(_0x4b43cc(0x18a)) / 0x1 + parseInt(_0x4b43cc(0x1bd)) / 0x2 * (-parseInt(_0x4b43cc(0x1ab)) / 0x3) + -parseInt(_0x4b43cc(0x1bf)) / 0x4 * (-parseInt(_0x4b43cc(0x1aa)) / 0x5) + parseInt(_0x4b43cc(0x18d)) / 0x6 * (-parseInt(_0x4b43cc(0x1a7)) / 0x7) + -parseInt(_0x4b43cc(0x1b7)) / 0x8 * (-parseInt(_0x4b43cc(0x192)) / 0x9) + -parseInt(_0x4b43cc(0x17d)) / 0xa * (parseInt(_0x4b43cc(0x1bb)) / 0xb) + -parseInt(_0x4b43cc(0x1b5)) / 0xc * (-parseInt(_0x4b43cc(0x1c4)) / 0xd);
+            if (_0x552784 === _0xda620d) break;
+            else _0x557bb1['push'](_0x557bb1['shift']());
+        } catch (_0x3e5073) {
+            _0x557bb1['push'](_0x557bb1['shift']());
+        }
+    }
+}(a1_0x3ee7, 0x46d9c), ((() => {
+    var _0x1a5242 = a1_0x56c2,
+        _0x117b78 = {
+            0x103d: _0x469b86 => {
+                'use strict';
+                var _0x199516 = a1_0x56c2;
+                if (_0x199516(0x182) !== _0x199516(0x182)) _0x2f702c[_0x199516(0x1a8)](!0x0);
+                else {
+                    _0x469b86['exports'] = require('electron');
+                }
+            }
+        },
+        _0x4cb799 = {};
+    const {
+        contextBridge: _0x5bf9ec,
+        ipcRenderer: _0x4b5f07
+    } = function _0xa63f19(_0x59d252) {
+        var _0x57fb0e = a1_0x56c2;
+        if ('FbBhI' === _0x57fb0e(0x1a9)) {
+            var _0x28a8a5 = _0x4cb799[_0x59d252];
+            if (void 0x0 !== _0x28a8a5) return _0x28a8a5[_0x57fb0e(0x1af)];
+            var _0x23cde1 = _0x4cb799[_0x59d252] = {
+                'exports': {}
+            };
+            return _0x117b78[_0x59d252](_0x23cde1, _0x23cde1['exports'], _0xa63f19), _0x23cde1[_0x57fb0e(0x1af)];
+        } else return this['available'];
+    }(0x103d), _0x282d89 = new class {
+        ['available'] = !0x1;
+        [_0x1a5242(0x1a2)] = !0x1;
+        [_0x1a5242(0x1ad)](_0x1bbd6b) {
+            var _0x14fbc1 = _0x1a5242;
+            if (_0x14fbc1(0x1ae) !== _0x14fbc1(0x1ae)) {
+                const _0x14bc0f = (_0x30ac63, _0xd09255) => _0x8d61f3(_0xd09255);
+                return _0x4226c3['on'](_0xfb414a, _0x14bc0f), () => _0x363212[_0x14fbc1(0x1a3)](_0x55be32, _0x14bc0f);
+            } else this[_0x14fbc1(0x188)] = _0x1bbd6b;
+        } ['getAvailable']() {
+            var _0x54106c = _0x1a5242;
+            return this[_0x54106c(0x188)];
+        } [_0x1a5242(0x1a8)](_0x50aef0) {
+            var _0x404a5c = _0x1a5242;
+            if ('KIOlk' !== _0x404a5c(0x1c6)) this[_0x404a5c(0x1a2)] = _0x50aef0;
+            else {
+                const _0x4a7e20 = (_0x3f93fb, _0x46af14) => _0x259899(_0x46af14);
+                return _0x24dfbd['on'](_0x404a5c(0x19a), _0x4a7e20), () => _0x106c33[_0x404a5c(0x1a3)](_0x404a5c(0x19a), _0x4a7e20);
+            }
+        } [_0x1a5242(0x1c3)]() {
+            return this['downloaded'];
+        }
+    }();
+    _0x4b5f07['on'](_0x1a5242(0x19c), () => {
+        var _0xdb6f61 = _0x1a5242;
+        _0x282d89[_0xdb6f61(0x1a8)](!0x0);
+    }), _0x5bf9ec[_0x1a5242(0x184)](_0x1a5242(0x1a5), {
+        'openBrowser': _0x3cddfc => _0x4b5f07[_0x1a5242(0x17c)](_0x1a5242(0x1b8), _0x3cddfc),
+        'download': (_0x1de138, _0x229f7a, _0x264575, _0x4a3266 = !0x1) => _0x4b5f07['invoke'](_0x1a5242(0x193), _0x1de138, _0x229f7a, _0x264575, _0x4a3266),
+        'downloadV3': (_0x37cc49, _0x49e2b8, _0x1e5401) => _0x4b5f07[_0x1a5242(0x1b0)]('download:start:v3', _0x37cc49, _0x49e2b8, _0x1e5401),
+        'handleProgress': _0x2143e5 => _0x4b5f07['on'](_0x1a5242(0x17f), _0x2143e5),
+        'handleFinish': _0x2f5e7f => _0x4b5f07['on'](_0x1a5242(0x1ac), _0x2f5e7f),
+        'downloadTrailer': _0x566430 => _0x4b5f07['invoke'](_0x1a5242(0x1b9), _0x566430),
+        'downloadSubtitles': _0x163026 => _0x4b5f07[_0x1a5242(0x1b0)](_0x1a5242(0x18f), _0x163026),
+        'handleTrailerProgress': _0x56a8d5 => _0x4b5f07['on'](_0x1a5242(0x1b6), _0x56a8d5),
+        'authCallback': _0x493ec9 => _0x4b5f07['on'](_0x1a5242(0x1c1), _0x493ec9),
+        'authV3Callback': _0x56b6d6 => _0x4b5f07['on'](_0x1a5242(0x1bc), _0x56b6d6),
+        'discord': _0x18993b => _0x4b5f07[_0x1a5242(0x17c)](_0x1a5242(0x180), _0x18993b),
+        'updateAvailable': _0x305af2 => _0x4b5f07['on'](_0x1a5242(0x1b1), _0x305af2),
+        'doMagic': _0x296159 => _0x4b5f07[_0x1a5242(0x17c)](_0x1a5242(0x197), _0x296159),
+        'disablePaks': (_0x33258d, _0x5d43d5) => _0x4b5f07[_0x1a5242(0x1b0)](_0x1a5242(0x1a6), _0x33258d, _0x5d43d5),
+        'showInvite': _0x1ec7f6 => _0x4b5f07[_0x1a5242(0x17c)]('notification:invite', _0x1ec7f6),
+        'sentryContext': _0x187e0e => _0x4b5f07[_0x1a5242(0x17c)](_0x1a5242(0x19d), _0x187e0e),
+        'clientFingerprint': _0x334efe => _0x4b5f07['invoke']('client:fingerprint', _0x334efe),
+        'downloadClient': _0x4f2571 => _0x4b5f07[_0x1a5242(0x1b0)](_0x1a5242(0x1a0), _0x4f2571),
+        'handleClientProgress': _0x39b112 => _0x4b5f07['on']('download:client:progress', _0x39b112),
+        'handleUpdateCheckProgress': _0x448756 => _0x4b5f07['on'](_0x1a5242(0x195), _0x448756),
+        'openPath': _0x31326f => _0x4b5f07['send'](_0x1a5242(0x186), _0x31326f),
+        'openDirectory': () => _0x4b5f07['send'](_0x1a5242(0x18c)),
+        'openFolder': _0x24b629 => _0x4b5f07[_0x1a5242(0x17c)](_0x1a5242(0x1c0), _0x24b629),
+        'handleOpenedDirectory': _0xad23f => _0x4b5f07['on'](_0x1a5242(0x189), _0xad23f),
+        'shippingHash': _0x1831e2 => _0x4b5f07['send'](_0x1a5242(0x1c7), _0x1831e2),
+        'handleShippingHash': _0x375ec0 => _0x4b5f07['on'](_0x1a5242(0x1c2), _0x375ec0),
+        'analyzePaks': _0x648da1 => _0x4b5f07['send'](_0x1a5242(0x199), _0x648da1),
+        'handleAnalyzePaks': _0x2ef0e0 => _0x4b5f07['on'](_0x1a5242(0x18e), _0x2ef0e0),
+        'launch': (_0x1341f9, _0x367ab5, _0x488e41, _0x23c0d8) => _0x4b5f07[_0x1a5242(0x17c)](_0x1a5242(0x1b2), _0x1341f9, _0x367ab5, _0x488e41, _0x23c0d8),
+        'handleLaunch': _0x1e7783 => _0x4b5f07['on'](_0x1a5242(0x1a1), _0x1e7783),
+        'handleGameClose': _0x13c3e7 => _0x4b5f07['on'](_0x1a5242(0x196), _0x13c3e7),
+        'cancelDownload': () => _0x4b5f07[_0x1a5242(0x17c)](_0x1a5242(0x183)),
+        'openLogs': () => _0x4b5f07[_0x1a5242(0x17c)](_0x1a5242(0x187)),
+        'openFolder': _0x21e771 => _0x4b5f07[_0x1a5242(0x1b0)]('open:folder:async', _0x21e771),
+        'openFolderCallback': () => _0x4b5f07[_0x1a5242(0x1b0)](_0x1a5242(0x190)),
+        'findDefaultInstallDir': () => _0x4b5f07[_0x1a5242(0x1b0)](_0x1a5242(0x19f)),
+        'handleUpdateDownloaded': _0x6f52 => {
+            var _0x5ad89b = _0x1a5242;
+            if (_0x5ad89b(0x1a4) === _0x5ad89b(0x17e)) return this[_0x5ad89b(0x1a2)];
+            else _0x4b5f07['on'](_0x5ad89b(0x19c), _0x6f52);
+        },
+        'getUpdateAvailable': () => _0x282d89[_0x1a5242(0x1c3)](),
+        'installUpdate': () => _0x4b5f07[_0x1a5242(0x17c)](_0x1a5242(0x198)),
+        'checkVCRedist': () => _0x4b5f07[_0x1a5242(0x1b0)](_0x1a5242(0x19b)),
+        'checkUpdates': () => _0x4b5f07[_0x1a5242(0x1b0)](_0x1a5242(0x1c5)),
+        'handleUpdateProgress': _0x261488 => _0x4b5f07['on']('download:progress', _0x261488),
+        'minimize': () => _0x4b5f07[_0x1a5242(0x17c)]('win:minimize'),
+        'close': () => _0x4b5f07['send'](_0x1a5242(0x1b4)),
+        'checkForContentUpdate': (_0x1d5a3c, _0x56e0a1) => _0x4b5f07[_0x1a5242(0x1b0)](_0x1a5242(0x194), _0x1d5a3c, _0x56e0a1),
+        'onFocusChange': _0x159344 => _0x4b5f07['on'](_0x1a5242(0x191), _0x159344),
+        'exportMigrationSettings': _0x569a21 => _0x4b5f07[_0x1a5242(0x1b0)](_0x1a5242(0x19e), _0x569a21),
+        'downloadV3Setup': _0x38251d => _0x4b5f07[_0x1a5242(0x1b0)](_0x1a5242(0x18b), _0x38251d),
+        'handleMigrationProgress': _0x2337ec => {
+            var _0x43c127 = _0x1a5242;
+            if (_0x43c127(0x1ba) === _0x43c127(0x1ba)) {
+                const _0x1c0759 = (_0x212497, _0x535acc) => _0x2337ec(_0x535acc);
+                return _0x4b5f07['on'](_0x43c127(0x19a), _0x1c0759), () => _0x4b5f07[_0x43c127(0x1a3)](_0x43c127(0x19a), _0x1c0759);
+            } else {
+                'use strict';
+                _0x45740e[_0x43c127(0x1af)] = _0x1f7d5d(_0x43c127(0x1be));
+            }
+        },
+        'installMigration': _0x27822f => _0x4b5f07[_0x1a5242(0x17c)](_0x1a5242(0x185), _0x27822f),
+        'on': (_0x59002b, _0x1e5436) => {
+            var _0x265576 = _0x1a5242;
+            if (_0x265576(0x1b3) !== _0x265576(0x181)) {
+                const _0x2c2927 = (_0x1853a4, _0x16eb3d) => _0x1e5436(_0x16eb3d);
+                return _0x4b5f07['on'](_0x59002b, _0x2c2927), () => _0x4b5f07[_0x265576(0x1a3)](_0x59002b, _0x2c2927);
+            } else this[_0x265576(0x188)] = _0x5f5967;
+        }
+    });
+})()));
+
+function a1_0x56c2(_0x46da5d, _0x4bc390) {
+    var _0x3ee7a6 = a1_0x3ee7();
+    return a1_0x56c2 = function(_0x56c238, _0x231f29) {
+        _0x56c238 = _0x56c238 - 0x17c;
+        var _0x59fb3f = _0x3ee7a6[_0x56c238];
+        return _0x59fb3f;
+    }, a1_0x56c2(_0x46da5d, _0x4bc390);
+}
+
+function a1_0x3ee7() {
+    var _0x257f10 = ['download:client', 'launcher:launch:result', 'downloaded', 'removeListener', 'MsuNJ', 'electronAPI', 'paks:disable', '7EjYcUi', 'setDownloaded', 'FbBhI', '5cKsFcC', '663909wvnhfN', 'download:finish', 'setAvailable', 'pmwgI', 'exports', 'invoke', 'update:available', 'launcher:launch', 'nMEJA', 'win:close', '228vJLsxz', 'download:trailer:progress', '1696rDtoaQ', 'open:browser', 'download:trailer:start', 'DaDtg', '11TroTxe', 'auth:v3:callback', '4eiatCO', 'electron', '6488zeOPCh', 'open:folder', 'auth:callback', 'profiler:shipping-hash:result', 'getDownloaded', '230477OBDuRY', 'update:check', 'dSeHM', 'profiler:shipping-hash', 'send', '39730uwbHYC', 'jHdMA', 'download:progress', 'discord:presence', 'CpAwg', 'DdYya', 'download:cancel', 'exposeInMainWorld', 'migration:install', 'open:path', 'open:logs', 'available', 'open:directory:result', '469291LqnXYQ', 'migration:download-v3', 'open:directory', '2533590IocvjO', 'profiler:analyze:result', 'download:subtitles:start', 'open:folder:callback', 'win:focus', '14913DCJvlW', 'download:start', 'content-update:check', 'content-update:progress', 'game:close', 'aeolus:magic', 'update:install', 'profiler:analyze', 'migration:progress', 'vcredist:check', 'update:downloaded', 'sentry:context', 'migration:export-settings', 'find:default:downloads'];
+    a1_0x3ee7 = function() {
+        return _0x257f10;
+    };
+    return a1_0x3ee7();
+}
+//# sourceMappingURL=preload.js.map
+//# sourceMappingURL=preload.js.map
